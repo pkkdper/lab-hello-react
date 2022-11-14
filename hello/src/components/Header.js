@@ -1,0 +1,12 @@
+import lines from "../images/68747470733a2f2f656475636174696f6e2d7465616d2d323032302e73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f7765622d6465762f6c6162732f6c616e64696e672d706167652f6d656e752d746f7.png";
+import logo from "../images/68747470733a2f2f656475636174696f6e2d7465616d2d323032302e73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f7765622d6465762f6c6162732f6c616e64696e672d706167652f69726f6e6861636.png";
+function Header() {
+    return (
+  <div className="imagesHeader">
+    <img id="image1header" src={logo} alt="Logo" />
+    <img id="image2header" src={lines} alt="lines" />
+  </div>
+    )
+}
+
+export default Header;

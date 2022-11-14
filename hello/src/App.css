@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+#headerIntro{
+  background-color: midnightblue ;
+  color: aliceblue;
+}
+#image1header{
+
+}
+#image2header {
+margin-right: -720px;
+}
+.imagesHeader {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: center;
+  margin: 20px;
+}
+#images {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+button {
+  background-color: aliceblue;
+  font-weight: 700;
+  padding: 10px 20px 10px 20px;
+}
